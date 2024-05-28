@@ -35,7 +35,7 @@ a {
 .header__wrapper header {
   width: 100%;
   background: url("../img/bg/couple6.jpg") no-repeat 50% 20% / cover;
-  min-height: calc(125px + 20vw);
+  min-height: calc(100px + 20vw);
 }
 .header__wrapper .cols__container .left__col {
   padding: 25px 14px;
@@ -145,11 +145,16 @@ a {
   gap: 20px;
   flex-direction: column;
 }
-.header__wrapper .cols__container .right__col nav ul li a {
+.header__wrapper .cols__container .right__col nav ul li {
   text-transform: uppercase;
   color: var(--text-color);
+  display: flex;
+  margin-bottom: 1rem;
 }
-
+.header__wrapper .cols__container .right__col nav ul i {
+  font-size: 1.7rem;
+  letter-spacing: 0.65rem;
+}
 .header__wrapper .cols__container .right__col .button {
   background: var(--main-color);
   color: #fff;
@@ -159,6 +164,7 @@ a {
   cursor: pointer;
   font-size: 14px;
   transition: 0.3s ease-in-out;
+  margin-bottom: 1rem;
 }
 .header__wrapper .cols__container .right__col .button:hover {
   opacity: 0.8;
