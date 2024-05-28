@@ -150,14 +150,14 @@ a {
   color: var(--text-color);
 }
 
-.header__wrapper .cols__container .right__col nav button {
+.header__wrapper .cols__container .right__col .button {
   background: var(--main-color);
   color: #fff;
   border: none;
-  padding: 10px 25px;
+  padding: 8px 24px;
   border-radius: 10px;
   cursor: pointer;
-  margin-top: 20px;
+  font-size: 14px;
 }
 .header__wrapper .cols__container .right__col nav button:hover {
   opacity: 0.8;
