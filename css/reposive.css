@@ -8,9 +8,9 @@
   .header__wrapper .cols__container .right__col nav {
     flex-direction: row;
   }
-  .header__wrapper .cols__container .right__col nav button {
+  /*.header__wrapper .cols__container .right__col .button {
     margin-top: 0;
-  }
+  }*/
 }
 @media (min-width: 868px) {
   .header__wrapper .cols__container {
