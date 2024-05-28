@@ -158,9 +158,12 @@ a {
   border-radius: 10px;
   cursor: pointer;
   font-size: 14px;
+  transition: 0.3s ease-in-out;
 }
-.header__wrapper .cols__container .right__col nav button:hover {
+.header__wrapper .cols__container .right__col .button:hover {
   opacity: 0.8;
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
 }
 
 /*-- Photo --*/
