@@ -34,8 +34,8 @@ a {
 }
 .header__wrapper header {
   width: 100%;
-  background: url("../img/bg/bg.jpeg") no-repeat 50% 20% / cover;
-  min-height: calc(100px + 20vw);
+  background: url("../img/bg/couple6.jpg") no-repeat 50% 20% / cover;
+  min-height: calc(125px + 20vw);
 }
 .header__wrapper .cols__container .left__col {
   padding: 25px 14px;
@@ -56,7 +56,7 @@ a {
   object-fit: cover;
   border-radius: 50%;
   display: block;
-  box-shadow: 1px 3px 12px rgba(255, 255, 255, 0.602);
+  box-shadow: 2px 2px 25px rgba(110, 149, 186, 0.515);
 }
 .header__wrapper .cols__container .left__col .img__container span {
   position: absolute;
