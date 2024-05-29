@@ -14,7 +14,7 @@
   --bg-color: #090909;
   --second-bg-color: #131313;
   --text-color: white;
-  --main-color: #275888;
+  --main-color: #39526a;
 }
 body {
   background-color: var(--bg-color);
@@ -190,6 +190,6 @@ a {
   display: block;
   height: 100%;
   object-fit: cover;
-  border: 1.5px solid var(--main-color);
-  border-radius: 16px;
+  border: 0.5px solid var(--text-color);
+  border-radius: 14px;
 }
