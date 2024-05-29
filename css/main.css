@@ -136,7 +136,7 @@ a {
 .header__wrapper .cols__container .right__col nav {
   display: flex;
   align-items: center;
-  padding: 16px 16px;
+  padding: 16px 0px;
   justify-content: space-between;
   flex-direction: column-reverse;
 }
