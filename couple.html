@@ -11,6 +11,13 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.11.6/viewer.css"
+      integrity="sha512-eG8C/4QWvW9MQKJNw2Xzr0KW7IcfBSxljko82RuSs613uOAg/jHEeuez4dfFgto1u6SRI/nXmTr9YPCjs1ozBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <div class="header__wrapper">
@@ -84,12 +91,32 @@
 
           <!-- Photo -->
 
-          <div class="photos">
+          <div class="photos" id="images">
             <img src="./img/my-photo/c1.jpeg" alt="Photo" />
             <img src="./img/my-photo/c2.jpeg" alt="Photo" />
+            <img src="./img/my-photo/c3.jpeg" alt="Photo" />
+            <img src="./img/my-photo/c4.jpeg" alt="Photo" />
+            <img src="./img/my-photo/c5.jpeg" alt="Photo" />
+            <img src="./img/my-photo/c6.jpeg" alt="Photo" />
+            <img src="./img/my-photo/c7.jpeg" alt="Photo" />
+            <img src="./img/my-photo/c8.jpeg" alt="Photo" />
+            <img src="./img/my-photo/c9.jpeg" alt="Photo" />
+            <img src="./img/my-photo/c10.jpeg" alt="Photo" />
+            <img src="./img/my-photo/c11.jpeg" alt="Photo" />
+            <img src="./img/my-photo/c12.jpeg" alt="Photo" />
+            <img src="./img/my-photo/c13.jpeg" alt="Photo" />
           </div>
         </div>
       </div>
     </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.11.6/viewer.min.js"
+      integrity="sha512-EC3CQ+2OkM+ZKsM1dbFAB6OGEPKRxi6EDRnZW9ys8LghQRAq6cXPUgXCCujmDrXdodGXX9bqaaCRtwj4h4wgSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      new Viewer(document.getElementById("images"));
+    </script>
   </body>
 </html>
