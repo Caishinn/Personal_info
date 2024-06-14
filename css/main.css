@@ -113,7 +113,7 @@ a {
 .header__wrapper .cols__container .content p {
   font-size: 1rem;
   color: var(--text-color);
-  line-height: 1.8em;
+  line-height: 1.5em;
 }
 .header__wrapper .cols__container .content .ul-icon {
   justify-content: center;
