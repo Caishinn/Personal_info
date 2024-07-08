@@ -183,11 +183,11 @@ a {
   grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
   gap: 20px;
   margin: -8px 0px 20px 0px;
-  min-height: 80%;
+  min-height: 100%;
 }
 .header__wrapper .cols__container .right__col .photos img {
   width: 100%;
   display: block;
-  height: 18rem;
+  height: 100%;
   object-fit: cover;
 }
