@@ -146,8 +146,12 @@ a {
   flex-direction: row;
   padding: 20px 0;
 }
-.header__wrapper .cols__container .right__col nav ul span {
+/*.header__wrapper .cols__container .right__col nav ul span {
   color: var(--text-color);
+}*/
+.header__wrapper .cols__container .right__col nav ul a {
+  color: var(--text-color);
+  text-decoration: underline;
 }
 .header__wrapper .cols__container .right__col nav ul li {
   text-transform: uppercase;
@@ -157,7 +161,7 @@ a {
 }
 .header__wrapper .cols__container .right__col nav ul i {
   font-size: 1.5rem;
-  letter-spacing: 0.65rem;
+  letter-spacing: 0.5rem;
   color: var(--text-color);
 }
 .header__wrapper .cols__container .right__col .button {
@@ -181,7 +185,7 @@ a {
 .header__wrapper .cols__container .right__col .photos {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
-  gap: 20px;
+  gap: 12px;
   margin: -8px 0px 20px 0px;
   min-height: 100%;
 }
